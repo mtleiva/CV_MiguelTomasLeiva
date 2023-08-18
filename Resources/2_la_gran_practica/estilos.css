@@ -1,0 +1,71 @@
+<link href="estilos.css" rel="stylesheet" type="text/css">
+@charset "UTF-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	line-height:1.3em;
+}
+section{
+	width:70%;
+	margin:0 auto;
+}
+header{
+	width:100%;
+	background:#565454;
+	color:#FFF;
+	padding-top:1em;
+	padding-bottom:1em;
+}
+h1{
+	text-align:center;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:1.5em;
+}
+h2{
+	text-align:center;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:1em;
+}
+article{
+	padding:40px 0 20px 0;
+	border-bottom:dotted 1px #888282;
+}
+article h2{
+	float:left;
+	border-bottom:#21ABC5 2px solid;
+	padding-bottom:5px;
+	text-transform:uppercase;
+	line-height:1.3em;
+	font-size:1em;
+}
+article p, article ul{
+	margin-left:20%;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	line-height:1.3em;
+	color:#817C7C;
+	margin-bottom:1.5em;
+}
+article ul li{
+	margin-left:15px;
+	list-style:square;
+}
+article h3{
+	font-size:1em;
+	margin-left:20%;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	line-height:1.3em;
+}
+footer{
+	margin-top:3em;
+	padding:2em;
+	width:100%;
+	background:#565454;
+	color:#fff;
+}
+footer p{text-align:center;}
+footer a:link, footer a:visited{color:#fff;}
+footer a:hover{text-decoration:none;}
